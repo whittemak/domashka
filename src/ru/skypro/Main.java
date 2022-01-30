@@ -41,7 +41,7 @@ public class Main {
         double mashaRost = masha * 1.1;
         double mashaRostGod = mashaRost * 12;
         double mashaRaznica = mashaRostGod - mashaGod;
-        System.out.println("Маша теперь получает " + mashaRost + " рублей" "годовой доход вырос на " + mashaRaznica + " рублей" );
+        System.out.println("Маша теперь получает " + mashaRost + " рублей""годовой доход вырос на " + mashaRaznica + " рублей" );
         int denis = 83690;
         int denisGod = denis * 12;
         double denisRost = denis * 1.1;
@@ -54,6 +54,30 @@ public class Main {
         double krisRostGod = krisRost * 12;
         double krisRaznica = krisRostGod - krisGod;
         System.out.println("Кристина теперь получает " + krisRost + " рублей" "годовой доход вырос на " + krisRaznica + " рублей" );
+
+        byte a = 12;
+        byte b = 27;
+        byte c = 44;
+        byte d = 15;
+        byte e = 9;
+        int result = a * (b + (c - d * e));
+        int resultInvert = -result;
+        System.out.println(resultInvert);
+
+        int a1 = 5;
+        int b1 = 7;
+        b1 = a1 + b1;
+        a1 = b1 - a1;
+        b1 = b1 - a1;
+
+        int a2;
+        a2 = 456;
+        int b2;
+        int rest = 100;
+        b2 = a2 % rest;
+
+
+
 
 
 
