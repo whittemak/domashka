@@ -74,7 +74,7 @@ public class Main {
         a2 = 456;
         int b2;
         int rest = 100;
-        b2 = a2 % rest;
+        b2 = a2 % rest / 10;
 
 
 
